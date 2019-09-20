@@ -1,0 +1,241 @@
+.Grey{
+	color: #999;
+}
+ .container {
+	font-family: arial;
+   text-align: left;
+}
+
+.bg-modal{
+	width: 100%;
+	height: 100%
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 0;
+	padding: 200px 25px;
+	justify-content: center;
+	display: none;
+
+}
+
+.modal-content{
+	
+	height: 210px;
+	background-color: white; 
+
+}
+
+
+.TxtAlign{
+	position: absolute;
+	top: 40%;
+	right: 55%;
+	text-align: center;
+	padding: 2px 5px;
+}
+.btn_agree{
+	position: absolute;
+	right: 135px;
+	top: 80%;
+	border-radius: 5px;
+	background-color: #caf5b3;
+	color: black;
+	border: 2px solid #77a150;
+}
+.btn_cancel{
+	border-radius: 5px;
+	position: absolute;
+	top: 80%;
+	right: 60px;
+	background-color: #f9e2d2 ;
+	color: black;
+	border: 2px solid #b45918;
+}
+.valueAlign{
+	position: absolute;
+	left: 65%;
+	text-align: center;
+	font-size: 34px;
+	margin: 0px 19px;
+}
+.valueAlign2{
+	position: absolute;
+	left: 65%;
+	text-align: center;
+	font-size: 34px;
+	margin: 0px 11px;
+}
+
+.btn_minus{
+	position: absolute;
+	left: 50%;
+	background-color: black;
+	color: white;
+	border-color: black;
+	border-radius: 50%;
+	padding: 15px 20px;
+	/*margin: 4px 10px;*/
+}
+.btn_plus{
+	position: absolute;
+	left:80%;
+	border-color: black;
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	padding: 15px 20px;
+
+	
+}
+.btn_cart{
+	margin-left: 15%;
+	border-radius: 25px;
+	border-color: black; 
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 12px; 
+	padding: 10px 100px;
+}
+.borderCartValue{
+	position: absolute;
+	border-radius: 25px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 10px 25px;
+	border-style: solid; 
+	border-color: black; 
+	border-width: 0.5px;
+}
+
+/*
+Color Buttons
+*/
+.btnColor1{
+	border-radius: 50%;
+	background-color: red;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor2{
+	border-radius: 50%;
+	background-color: #622fa8;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor3{
+	border-radius: 50%;
+	background-color: black;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor4{
+	border-radius: 50%;
+	background-color: white;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor5{
+	border-radius: 50%;
+	background-color: orange;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor6{
+	border-radius: 50%;
+	background-color: #f7ff63;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor7{
+	border-radius: 50%;
+	background-color: #292c87;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor8{
+	border-radius: 50%;
+	background-color: #183554;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor9{
+	border-radius: 50%;
+	background-color: #D6ABA2;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor10{
+	border-radius: 50%;
+	background-color: #0FD5D5;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor11{
+	border-radius: 50%;
+	background-color: #22FF00;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor12{
+	border-radius: 50%;
+	background-color: #FD02F5;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor13{
+	border-radius: 50%;
+	background-color: #F0D1B8;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor14{
+	border-radius: 50%;
+	background-color: #01845F;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor15{
+	border-radius: 50%;
+	background-color: #755E84;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor16{
+	border-radius: 50%;
+	background-color: #534018;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor17{
+	border-radius: 50%;
+	background-color:  #73F4F3;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
+.btnColor18{
+	border-radius: 50%;
+	background-color: #E3D4F0;
+	border-style: solid; 
+	border-color: white; 
+	padding: 10px 10px;
+}
